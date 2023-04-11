@@ -3,8 +3,8 @@ using BlockCraft;
 
 Console.WriteLine("Hello, World!");
 
-arma pico = new arma("Pico de diamante",10);
-arma espada = new arma("Espada de oro", 30);
+arma pico = new arma("Pico de diamante",0.1);
+arma espada = new arma("Espada de oro", 0.3);
 personaje steve = new personaje("Steve",pico);
 enemigo creeper = new enemigo("Creeper");
 
@@ -13,11 +13,13 @@ enemigo creeper = new enemigo("Creeper");
 //steve.atacar(creeper);
 
 Console.WriteLine("daño con pico "+pico.getDanio());
-Console.WriteLine()
+Console.WriteLine("batalla: "+steve.atacar(creeper));
+
 creeper.calcularDanio(steve.atacar(creeper));
 Console.WriteLine("la vida del creeper: " + creeper.getVida());
 
 
 
-//steve.cambiarArma(espada);
-//Console.WriteLine("daño con espada " + steve.atacar(creeper));
+steve.cambiarArma(espada);
+Console.WriteLine("daño con espada " + steve.atacar(creeper));
+Console.WriteLine("la vida del creeper: " + creeper.getVida());

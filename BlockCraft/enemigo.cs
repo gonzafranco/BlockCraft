@@ -9,20 +9,20 @@ namespace BlockCraft
     internal class enemigo
     {
         private String nombre;
-        private int vida;
+        private double vida;
 
         public enemigo(String nombre)
         {
             this.nombre = nombre;
-            this.vida = 100;
+            this.vida = 100.0;
         }
 
-        public int getVida()
+        public double getVida()
         {
             return this.vida;
         }
 
-        public void calcularDanio(int danio)
+        public void calcularDanio(double danio)
         {
             this.vida -= danio;
         }

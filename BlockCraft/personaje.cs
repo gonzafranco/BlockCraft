@@ -19,10 +19,12 @@ namespace BlockCraft
         }
 
 
-        public int  atacar(enemigo e)
+        public double atacar(enemigo e)
         {
-            int calculo = e.getVida() - this.arma.getDanio();
-            return (calculo);
+            // int calculo = e.getVida() - this.arma.getDanio();
+            double danioArma = this.arma.getDanio();
+            double calcularDanio = (e.getVida() * danioArma);
+            return (calcularDanio);
         }
 
         public void cambiarArma(arma arma)

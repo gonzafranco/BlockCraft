@@ -9,15 +9,15 @@ namespace BlockCraft
     internal class arma
     {
         private String nombre;
-        private int daño;
+        private double daño;
 
-        public arma (String nombre, int daño)
+        public arma (String nombre, double daño)
         {
             this.nombre = nombre;
             this.daño = daño;
         }
 
-        public int getDanio()
+        public double getDanio()
         {
             return this.daño;
         }
