@@ -14,12 +14,19 @@ enemigo creeper = new enemigo("Creeper");
 
 Console.WriteLine("daño con pico "+pico.getDanio());
 Console.WriteLine("batalla: "+steve.atacar(creeper));
-
 creeper.calcularDanio(steve.atacar(creeper));
 Console.WriteLine("la vida del creeper: " + creeper.getVida());
 
-
+Console.WriteLine("\n");
+Console.WriteLine("Segundo batalla");
+Console.WriteLine("\n");
 
 steve.cambiarArma(espada);
+Console.WriteLine("daño con espada " + espada.getDanio());
+creeper.calcularDanio(steve.atacar(creeper));
+creeper.calcularDanio(100);
 Console.WriteLine("daño con espada " + steve.atacar(creeper));
 Console.WriteLine("la vida del creeper: " + creeper.getVida());
+
+
+Console.WriteLine(creeper.status());

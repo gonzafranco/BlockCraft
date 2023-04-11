@@ -17,6 +17,8 @@ namespace BlockCraft
             this.vida = 100.0;
         }
 
+
+
         public double getVida()
         {
             return this.vida;
@@ -26,5 +28,12 @@ namespace BlockCraft
         {
             this.vida -= danio;
         }
+
+        public String status()
+        {
+            return this.vida <= 0 ? "Me mori!" : "Estoy vivo!";  
+            
+        }
+
     }
 }
