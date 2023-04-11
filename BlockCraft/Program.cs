@@ -24,7 +24,7 @@ Console.WriteLine("\n");
 steve.cambiarArma(espada);
 Console.WriteLine("daño con espada " + espada.getDanio());
 creeper.calcularDanio(steve.atacar(creeper));
-creeper.calcularDanio(100);
+//creeper.calcularDanio(100);
 Console.WriteLine("daño con espada " + steve.atacar(creeper));
 Console.WriteLine("la vida del creeper: " + creeper.getVida());
 
