@@ -1,0 +1,15 @@
+D:\BlockCraft\BlockCraft\bin\Debug\net6.0\BlockCraft.exe
+D:\BlockCraft\BlockCraft\bin\Debug\net6.0\BlockCraft.deps.json
+D:\BlockCraft\BlockCraft\bin\Debug\net6.0\BlockCraft.runtimeconfig.json
+D:\BlockCraft\BlockCraft\bin\Debug\net6.0\BlockCraft.dll
+D:\BlockCraft\BlockCraft\bin\Debug\net6.0\ref\BlockCraft.dll
+D:\BlockCraft\BlockCraft\bin\Debug\net6.0\BlockCraft.pdb
+D:\BlockCraft\BlockCraft\obj\Debug\net6.0\BlockCraft.csproj.AssemblyReference.cache
+D:\BlockCraft\BlockCraft\obj\Debug\net6.0\BlockCraft.GeneratedMSBuildEditorConfig.editorconfig
+D:\BlockCraft\BlockCraft\obj\Debug\net6.0\BlockCraft.AssemblyInfoInputs.cache
+D:\BlockCraft\BlockCraft\obj\Debug\net6.0\BlockCraft.AssemblyInfo.cs
+D:\BlockCraft\BlockCraft\obj\Debug\net6.0\BlockCraft.csproj.CoreCompileInputs.cache
+D:\BlockCraft\BlockCraft\obj\Debug\net6.0\BlockCraft.dll
+D:\BlockCraft\BlockCraft\obj\Debug\net6.0\ref\BlockCraft.dll
+D:\BlockCraft\BlockCraft\obj\Debug\net6.0\BlockCraft.pdb
+D:\BlockCraft\BlockCraft\obj\Debug\net6.0\BlockCraft.genruntimeconfig.cache
